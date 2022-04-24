@@ -89,6 +89,12 @@ chmod +x build-s3-dist.sh
 - Get the link of the solution template uploaded to your Amazon S3 bucket.
 - Deploy the solution to your account by launching a new AWS CloudFormation stack using the link of the solution template in Amazon S3.
 
+## Destroy Stack
+Using the AWS Management Console:
+- Sign in to the AWS CloudFormation console.
+- On the Stacks page, select the solution stack.
+- Choose Delete.
+
 # Collection of operational metrics
 
 This solution collects anonymous operational metrics to help AWS improve the quality and features of the solution. For more information, including how to disable this capability, please see the [implementation guide](https://docs.aws.amazon.com/solutions/latest/serverless-image-handler/op-metrics.html).
