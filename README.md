@@ -92,8 +92,10 @@ chmod +x build-s3-dist.sh
 ## Destroy Stack
 Using the AWS Management Console:
 - Sign in to the AWS CloudFormation console.
-- On the Stacks page, select the solution stack.
+- On the Stacks page, select the solution stack ponty-serverless-image-handler.
 - Choose Delete.
+
+![Architecture Diagram](./ponty-serverless-image-handler-cloudformation.png)
 
 # Collection of operational metrics
 
