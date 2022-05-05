@@ -75,6 +75,11 @@ chmod +x run-unit-tests.sh
 ./run-unit-tests.sh
 ```
 
+The output looks like this:
+
+![run-unit-tests](./run-test.png)
+
+
 ## Build
 
 ```bash
@@ -95,7 +100,7 @@ Using the AWS Management Console:
 - On the Stacks page, select the solution stack ponty-serverless-image-handler.
 - Choose Delete.
 
-![Architecture Diagram](./ponty-serverless-image-handler-cloudformation.png)
+![Destroy-Stack](./ponty-serverless-image-handler-cloudformation.png)
 
 # Collection of operational metrics
 
